@@ -257,6 +257,10 @@ public class RecyclerTouchListener implements RecyclerView.OnItemTouchListener, 
         return this;
     }
 
+    public List<Integer> getUnSwipeableRows() {
+        return this.unSwipeableRows;
+    }
+
     //////////////// Fade Views ////////////////////
 
     // Set views which are faded out as fg is opened
